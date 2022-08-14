@@ -5,8 +5,7 @@ body{
 }
 .app-header{
     background-image: url('../assets/IMAGEN\ HERO.jpg');
-    opacity: 0.75;
-    height: 100vh;
+    height: 70%;
     background-size: cover;
 }
 .nav-link{
@@ -72,4 +71,45 @@ body{
 }
 .background-overlay{
     background-color: rgb(4,47, 100, 0.4);
+    height: 100%;
+
+}
+.app-navbar-info{
+    background-color: #032959;
+}
+.app-link{
+    color: white;
+}
+.item{
+    color: white;
+}
+.card{
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 5px rgba(0, 0, 0, 0.5);
+}
+.card-text{
+    font-weight: bold;
+    text-align: center;
+}
+.info-li{
+    display: inline-block;
+    font-size: 1.5rem;
+    border-bottom:2px solid #ffc107;
+   
+}
+.info-span{
+ font-size: 2rem;
+ font-weight: 500;  
+ 
+}
+.btn-outline-warning{
+    border-radius: 25px;
+    padding: 0.4rem 3rem;
+    
+}
+.container-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+
 }
