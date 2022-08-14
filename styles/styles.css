@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.app-header{
+    background-image: url('../assets/IMAGEN\ HERO.jpg');
+    opacity: 0.75;
+    height: 100vh;
+    background-size: cover;
+}
+.nav-link{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.navbar-nav{
+    margin-left:auto;
+}
+
+.app-img{
+    height: 3em;
+}
+.app-main{
+    font-weight: bold;
+}
+.btn-warning-default{
+    background-color: #ffc107;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 1rem 3rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.btn-warning{
+    color: white;
+    border-radius: 25px;
+    border: none;
+    padding: 0.4rem 3rem;
+    margin-left: 1rem;
+
+
+}
+.form-control{
+    background-color: #8b8b8b;
+    border-radius: 1rem;
+    border:none;
+    color: #dcdcdc;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+.form-control::placeholder{
+    color: #4e4c4c;
+}
+.app-form{
+    background-color: #032959;
+    padding: 1rem;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 10px solid #ffc107;
+    margin: 0;
+}
+.form-main{
+    background-color: white;
+    padding: 2rem;
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.background-overlay{
+    background-color: rgb(4,47, 100, 0.4);
+}
