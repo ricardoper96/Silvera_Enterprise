@@ -308,3 +308,9 @@ hr{
     font-size: 2.5rem;
     font-weight: bold;
 }
+.app-video{
+    border-radius: 2rem;
+}
+.img-carousel{
+    width: 100%;
+}
